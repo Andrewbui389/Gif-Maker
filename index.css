@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    overscroll-behavior: none;
+}
+.imageBox {
+    margin: 10px 0 0 0;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#newGif {
+    background-color: darkolivegreen;
+    border-style: none;
+}
+#newGif:active {
+    background-color: white;
+    border-style: none;
+}
+
+.formOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
